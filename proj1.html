@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed and Accuracy Game</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    #typing-area { width: 300px; height: 100px; }
+    .result { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Typing Speed Test</h1>
+  <div id="sentence-display"></div>
+  <textarea id="typing-area" placeholder="Start typing here..." disabled></textarea>
+  <div class="result">
+    <p>Time: <span id="time">0</span>s</p>
+    <p>WPM: <span id="wpm">0</span></p>
+    <p>Accuracy: <span id="accuracy">0</span>%</p>
+  </div>
+
+  <script src = "typingGame.js"></script>
+</body>
+</html>
