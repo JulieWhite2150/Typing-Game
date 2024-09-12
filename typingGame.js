@@ -1,7 +1,5 @@
     const sentences = [
-      "The quick brown fox jumps over the lazy dog.",
-      "JavaScript is fun and powerful.",
-      "Typing games help improve speed and accuracy."
+      "The quick brown fox jumps over the lazy dog."
     ];
 
     const sentenceDisplay = document.getElementById('sentence-display');
